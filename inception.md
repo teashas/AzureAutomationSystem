@@ -71,7 +71,7 @@ I would like to create an automation system using the resources available in the
 
 **Key insights:**
   - Subscribed to Infrastructure & Production (DEMO)
-  - global admin in Infrastructure
+  - Global admin in Infrastructure
   - Contributor in Production (DEMO)
   - Some of the tasks performed in Azure Portal include contribition with the Bicep files deployed to Azure and AVD configuration.
   - Use the Service Now Application to send out alerts to the directory instead of the Azure Active Directory
