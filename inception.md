@@ -43,22 +43,26 @@ I would like to create an automation system using the resources available in the
 
 ### Interview 2:
 
-**Summary:** 
+**Summary:** Firewall creation/deletion/updates will be reported in the logs and notifies through the alerts.
 
 **Interviewer:** Jeff Holverson\
 **Interviewee:** Saima Teasha\
 **When:**  08/04/2022\
-**Consumer segment:** Azure Contributor
+**Consumer segment:** Contributor
 
 **Key insights:**
-  - 
-
+  - Able to view Infrastructure, Production, and IT-Application subscriptions.
+  - Some tasks performed in the Azure environment include: 
+    - Deploy resource groups, vnets, subnets, VMs, load balancers, Bastion, and Firewalls.
+    - Delete Bastion
 
 **Hypotheses that were validated:**
-  - 
+  - System will report and log down all activities from the firewall.
 
 **Assessment: Must have / Nice to have / Don’t care**
-  - 
+  - Must be able to track firewall accounts and firewall status (ups & downs). 
+  - Must log password and role changes.
+  - Must log Virtual Network Gateway ups & downs and VPN tunnel status.
 
 ### Interview 3:
 
