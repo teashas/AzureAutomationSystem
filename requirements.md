@@ -1,4 +1,4 @@
-# Project - D.2 Requirements
+# Project - D2 Requirements
 
 _Group : Azure\
 Date and location: Aug 4, 2022, Yavapai County ITS\
