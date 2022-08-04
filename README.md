@@ -1,0 +1,2 @@
+# AzureAutomationSystem
+I would like to create an automation system using the resources available in the Azure Portal. I want to make an automation system that notifies the Azure Active Directory persons about certain threats or alerts that they might need to know. the automation system would send out emails to the Azure Active Directory about the threat/alert, and will post a notification to the dashboard as well.
