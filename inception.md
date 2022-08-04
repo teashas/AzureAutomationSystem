@@ -1,7 +1,7 @@
 # Project Inception
 
-_Group – Azure Automation System\
-Date and location: Aug 4, 2022\
+_Group : Azure\
+Date and location: Aug 4, 2022, Yavapai County ITS\
 Group Members: Abe Zapeda, Jacob Rascon, Jeff Holverson, Jerry Struver, Joshua Diaz, Saima Teasha_
 
 ## 1. Introduction
@@ -16,7 +16,7 @@ I would like to create an automation system using the resources available in the
 
 - Azure RBAC Roles
 
-## 3. Interviews summary
+## 3. Interviews Summary
 
 ### Interview 1:
 
@@ -29,9 +29,6 @@ I would like to create an automation system using the resources available in the
 
 **Key insights**
   - 
-
- **Representative quotes**
-  -
 
  **Hypotheses that were validated**
   - 
@@ -51,8 +48,6 @@ I would like to create an automation system using the resources available in the
 **Key insights:**
   - 
 
-**Representative quotes:**
-  - 
 
 **Hypotheses that were validated:**
   - 
