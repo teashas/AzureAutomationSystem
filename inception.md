@@ -25,16 +25,21 @@ I would like to create an automation system using the resources available in the
 **Interviewer:** Jacob Rascon\
 **Interviewee:** Saima Teasha\
 **When:** 08/04/2022 \
-**Consumer Segments:** Azure Admin
+**Consumer Segments:** Azure Owner
 
 **Key insights**
-  - 
+  - Has subscription to all subscription groups on Azure.
+  - Some tasks on Azure Portal include:
+    - Deleting resources, vnets, and public IPs
+    - Creating Public IPs
+    - Budget Alerts 
+    - Set up policies
 
  **Hypotheses that were validated**
-  - 
+  - The system must log all activities and then alert to users accordingly. 
 
  **Assessment: Must have / Nice to have / Don’t care**
-  - 
+  - All activities must be logged and log workspace must produce the logs. 
 
 ### Interview 2:
 
@@ -121,6 +126,26 @@ I would like to create an automation system using the resources available in the
   - Might be nice to view user roles acress Azure for auditing purposes.
   - Don't care to go into too much detail if it is an outside user.
 
+### Interview 6: 
+**Summary:** System must log every activity and then send out automated alerts when logs are out of the ordinary. 
+
+**Interviewer:** Lizzy Repp\
+**Interviewee:** Saima Teasha\
+**When:**  08/04/2022\
+**Consumer segment:** Reader (soon)
+
+**Key insights:**
+  - More logs the better!
+  - Log everything and send alerts about things out of the ordinary. This includes deleting/creating/updating roles and changing resources.
+  - Has not explored Azure workspace. 
+  - Part of the security team in Azure.
+
+**Hypotheses that were validated:**
+  - Logging is an important step of the system configuration.
+
+**Assessment: Must have / Nice to have / Don’t care**
+  - System must log all activities.
+ 
 ## 4. Final value proposition and consumer segments
 
 **Final Value Proposition:**
