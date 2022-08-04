@@ -6,20 +6,15 @@ Group Members: Abe Zapeda, Jacob Rascon, Jeff Holverson, Jerry Struver, Joshua D
 
 ## 1. Introduction
 
-
+I would like to create an automation system using the resources available in the Azure Portal. I want to make an automation system that notifies the Azure Active Directory persons about certain threats or alerts that they might need to know. the automation system would send out emails to the Azure Active Directory about the threat/alert, and will post a notification to the dashboard as well.
 
 ## 2. Initial value proposition and consumer segments
 
-**IVP:**
-
-Azure Automation System (AAS) is a basic, simple automation system that is implemented into our Azure workspace to notify us against potential threats. 
+**IVP:** Azure Automation System (AAS) is a basic, simple automation system that is implemented into our Azure workspace to notify us against potential threats. 
 
 **Initial Consumer Segments:**
 
-- Azure administrators
-- Azure owners
-- Azure contributors
-- Global Adminstrators 
+- Azure RBAC Roles
 
 ## 3. Interviews summary
 
@@ -67,7 +62,7 @@ Azure Automation System (AAS) is a basic, simple automation system that is imple
 
 ### Interview 3:
 
-**Summary:** 
+**Summary:** The system needs to be able to get information on all VM resources to report alerts back to the user. 
 
 **Interviewer:** Joshua Diaz\
 **Interviewee:** Saima Teasha\
@@ -90,23 +85,26 @@ Azure Automation System (AAS) is a basic, simple automation system that is imple
   - Don't care about multiple failed log in attempts.
 
 ### Interview 4: 
-**Summary:**   
+**Summary:** User can recieve alerts when there are potential threats on a service or database. 
 
 **Interviewer:** Jerry Struver\
 **Interviewee:** Saima Teasha\
 **When:**  08/04/2022\
-**Consumer segment:** Azure Contributor
+**Consumer segment:** Azure owner (mgmt level)
 
 **Key insights:**
-  - 
-
-**Representative quotes:**
-  - 
+  - Has access to the Infrastructure subscription.
+  - Tasks include:
+    - Deployment of Bicep files using PowrShell.
+    - Creation of the CLI Workspace.
+    - SQL & database implementation (soon)
 
 **Hypotheses that were validated:**
-  - 
+  - System is able to detect threats including service applications. 
 
 **Assessment: Must have / Nice to have / Don’t care**
+  - System must alert when a service is down and server alerts.
+  - Might be nice to include SQL performance alerts.
 
 ### Interview 5: 
 **Summary:** System that send out alerts but also allows you to view current Azure user roles. 
@@ -128,40 +126,14 @@ Azure Automation System (AAS) is a basic, simple automation system that is imple
   - Might be nice to view user roles acress Azure for auditing purposes.
   - Don't care to go into too much detail if it is an outside user.
 
-### Interview 6:
-
-**Summary:** Isaac is an old-school gamer who was interested in using the application to make some of his old Pokemon teams from the gameboy era. He wasn’t too interested in the sharing aspect of the application and made it clear that the UI had to have a Pokemon feel to it.
-
-
-**Interviewer:** Ricardo Chairez\
-**Interviewee:** Isaac Barron\
-**When:** 7/10/2022\
-**Consumer Segment:** Adult gamer
-
-**Key Insights:**
-  - The UI needs to have sprites of the Pokemon and have a Pokemon feel to it.
-  - There needs to be a way to sort the 800+ Pokemon. Pokemon have many different qualities, so there should be many options to sort from.
-   
-**Representative quotes:**
-  - “I need to see sprites (images) of the Pokemon I’m selecting.”
-  - “It would be sick if the UI resembled one of the old gameboy games”
-  - “I want to make generation-specific teams because I don’t really mess with the new stuff”
-
-**Hypotheses that were validated:**
-   - Familiar UI as well as sort and search functions will benefit user experience.
-
-
-**Assessment: Must have / Nice to have / Don’t care**
-  - Must have - Images of the Pokemon, search bar to find specific Pokemon.
-  - Nice to have - Pokemon “feel” to the UI and sort by release date.
-  - Don’t care - Wasn’t interested in the sharing aspect.
-
-   
 ## 4. Final value proposition and consumer segments
 
 **Final Value Proposition:**
-PokéPicker is a simple single-purpose app that allows the user to generate numerous different combinations of Pokémon teams. 
+Azure Automation System (AAS) is a simple single-purpose resource that sends alerts of threats on the Azure Portal. 
 
 **Consumer segments:**
-- Gamers 
-- Children and young adults 
+- Global Administrator
+- Contributor
+- Reaader
+- Virtual Machine Login
+- Azure owner
