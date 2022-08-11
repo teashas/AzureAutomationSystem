@@ -2,7 +2,7 @@
 
 _Group : Azure\
 Date and location: Aug 4, 2022, Yavapai County ITS\
-Group Members: Abe Zapeda, Jacob Rascon, Jeff Holverson, Jerry Struver, Joshua Diaz, Saima Teasha_
+Group Members: Saima Teasha_
 
 ## 1. Position 
 
