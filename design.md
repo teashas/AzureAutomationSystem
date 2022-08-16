@@ -6,7 +6,7 @@ Group Members: Saima Teasha_
 
 ## 1. Introduction
 
-The Automation Alert System is a automation system where Azure RBAC users can get emails directly to their mailbox once an alert is triggererd on Azure. The Automation System also forwards all alert sent to Microsoft Sentinel to the Azure dashboard. 
+The Automation Alert System is an automation system where Azure RBAC users can get emails directly to their mailbox once an alert is triggered on Azure. The Automation System also forwards all alert sent to Microsoft Sentinel to the Azure dashboard. The alerts from each individual resource (e.g. the VM) and sends all its logs and alerts to a log analytics workspace. The log analytics workspace then forwards the alerts to the Microsoft Sentinel which then uses the playbooks to send out emails accordingly. 
 
 ## 2. Architechture 
 
