@@ -6,8 +6,7 @@ Group Members: Saima Teasha_
 
 ## 1. Introduction
 
-The Automation Alert System is a automation system where gamers can easily create and share their Pokemon teams without accessing the game. The system has four main software components which are, creating teams, viewing teams, deleting teams, and sharing teams. Creating a team allows the app user to select six pokemon out of the inventory database, choose specific battle moves for each Pokemon, and then save that team under a team name. Viewing teams on the web application prompts the system to retrieve all the user’s team as an overview. Deleting an existing team would look similar to viewing teams, except it will display a delete button and will ask the user to confirm their choice if they select to delete the team. The team will be removed and will not show in the web application any longer. To share a team, the user must select a team to share and the system will display all the shareable social media platforms. After the user selects one of the platforms, the system will redirect them to the associated link.
-The team is using the “create a team” use case because that is one of the first actions that the server can do. All the other use cases would have a similar class diagram, but the use cases and sequence diagram will differ from this use case.
+The Automation Alert System is a automation system where Azure RBAC users can get emails directly to their mailbox once an alert is triggererd on Azure. The Automation System also forwards all alert sent to Microsoft Sentinel to the Azure dashboard. 
 
 ## 2. Architechture 
 
